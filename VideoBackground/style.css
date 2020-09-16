@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.preloader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  z-index: 1;
+}
+
+.preloader-hidden {
+  z-index: -999;
+  visibility: hidden;
+}
+
+.slide.switch {
+  left: 50%;
+}
+
+.switch-btn {
+  position: absolute;
+  bottom: 7%;
+  left: 5%;
+  width: 7rem;
+  height: 2rem;
+  display: flex;
+  border: none;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.switch-btn span {
+  display: inline-block;
+  font-size: 0.8rem;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.switch {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+  display: none;
+}
+
+/* so it goes */
+
+header ::after{
+    content : "" ;
+    position : absolute ;
+    top : 0 ;
+    left : 0 ;
+    width : 100% ;
+    height: 100%; 
+    background: rgba(0 , 0 , 0 , 0.7);
+    z-index : -1 ;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- First Adding the preloader -->
+    <div class="preloader">
+      <img src="./preloader.gif" alt="preloader" class="preloader_item" />
+    </div>
+
+    <!-- Now working for the header -->
+
+    <header>
+      <video controls autoplay muted loop class="video-container">
+        <source type="video/mp4" src="./video.mp4" />
+      </video>
+      <h1>Video Project</h1>
+
+      <button>
+        <span>Play</span>
+        <span>Pause</span>
+        <span class="switch"></span>
+      </button>
+    </header>
+
+    <!-- Adding the javascript -->
+
+    <script src="./index.js"></script>
+  </body>
+</html>

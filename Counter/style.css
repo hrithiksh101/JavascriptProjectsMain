@@ -1,0 +1,37 @@
+
+body {
+    margin : 0 ;
+    padding : 0 ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-box {
+    display: flex;
+    justify-content : space-around ;
+    align-items: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container h1 {
+    text-align : center ;
+    font-size: 4rem;
+}
+.container {
+    min-height: 40vh;
+    min-width : 50vw ;
+    background-color: yellow;
+}
+
+.container button {
+    padding : 20px ;
+}
+
+.container span {
+    font-size: 4rem;
+    margin-left: 48%;
+}

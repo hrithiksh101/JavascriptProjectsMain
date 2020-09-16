@@ -1,0 +1,33 @@
+* {
+    box-sizing : border-box ;
+}
+
+body {
+padding : 0 ;
+    margin : 0 ;
+}
+
+
+.section1 {
+    border : 1px solid black ;
+    margin-top: 15%;    
+    min-height: 30vh;    
+    /* background-color: black; */
+    color : white;
+}
+
+.background-color {
+    text-align: center  ;
+}
+.container{
+    height: 100%;
+}
+
+span {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.container1 {
+    padding-top : 60px ;
+}

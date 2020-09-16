@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+body p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* Now comes the topic of showing and hiding the content */
+
+.content {
+    display: none;
+}
+
+.tab-btn.active{
+    background-color: red;
+}
+
+ .content.active {
+    display: block;
+   
+}
